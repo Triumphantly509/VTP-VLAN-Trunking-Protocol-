@@ -10,8 +10,11 @@
 
 ### Purpose of the lab
 
-We will create VLANS on the server, and the VLANS will be reflected on the CLIENT switches
-We will understand the behavior of TRANSPARENT Switches which only forward VTP information to other clients, but does not implement VLANS.
+In this lab, we will create VLANs on the VTP Server switch and observe how those VLANs are automatically propagated to the VTP Client switches.
+
+We will also examine the behavior of a VTP Transparent switch, which forwards VTP advertisements to neighboring switches but does not synchronize or apply VLAN information received from the VTP domain.
+
+Finally, we will add a new switch to the network, configure the VTP domain name and password, and set its VTP mode to Client. We will then create additional VLANs on this switch to increase its configuration revision number beyond that of the existing VTP Server. This demonstration will show how a switch with a higher VTP revision number can overwrite the VLAN database of other switches in the same VTP domain, potentially deleting existing VLANs and replacing them with its own VLAN configuration.
 
 ### First we trunk the switch server port fa0/1 - 2
 
