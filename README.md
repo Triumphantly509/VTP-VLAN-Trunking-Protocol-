@@ -78,7 +78,7 @@ Finally, we will add a new switch to the network, configure the VTP domain name 
   <img width="563" height="251" alt="image" src="https://github.com/user-attachments/assets/865004ba-f6e9-4a0e-9c3d-533bb59a56ec" />
 </div>
 
-- Configure the VTP password and set the VTP mode to Client.
+- Configure the VTP password
 
 <div>
   <img width="607" height="151" alt="image" src="https://github.com/user-attachments/assets/e46a3ffb-70b3-4d21-b504-b818614aa209" />
