@@ -96,3 +96,10 @@ password and mode
 <div>
   <img width="637" height="211" alt="image" src="https://github.com/user-attachments/assets/ff02cef2-71f6-489a-870d-38285b5da0c4" />
 </div>
+
+
+### We add a new switch and create multi other VLANS on it, its configuration revision increases to 4
+
+<div>
+  <img width="626" height="490" alt="image" src="https://github.com/user-attachments/assets/56f1c643-4a61-42c6-a38a-2a9c06fc4154" />
+</div>
