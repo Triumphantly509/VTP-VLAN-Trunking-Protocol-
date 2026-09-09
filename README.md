@@ -16,7 +16,7 @@ We will also examine the behavior of a VTP Transparent switch, which forwards VT
 
 Finally, we will add a new switch to the network, configure the VTP domain name and password, and set its VTP mode to Client. We will then create additional VLANs on this switch to increase its configuration revision number beyond that of the existing VTP Server. This demonstration will show how a switch with a higher VTP revision number can overwrite the VLAN database of other switches in the same VTP domain, potentially deleting existing VLANs and replacing them with its own VLAN configuration.
 
-### First we trunk the switch server port fa0/1 - 2
+### First, configure interfaces Fa0/1 and Fa0/2 on the VTP Server switch as trunk ports to allow VLAN traffic to be carried between switches.
 
 <div>
   <img width="395" height="41" alt="image" src="https://github.com/user-attachments/assets/eed185c6-ee49-46a9-b2c6-39955773173f" />
