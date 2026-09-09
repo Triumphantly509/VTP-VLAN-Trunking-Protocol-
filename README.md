@@ -24,6 +24,7 @@ We will understand the behavior of TRANSPARENT Switches which only forward VTP i
 </div>
 
 ### Then We do the same to all the clients and transparent switches
+
 <div>
   <img width="628" height="236" alt="image" src="https://github.com/user-attachments/assets/3e1ec8cc-44fc-4990-a5ba-2f6704cecd35" />
 </div>
@@ -34,6 +35,7 @@ We will understand the behavior of TRANSPARENT Switches which only forward VTP i
 </div>
 
 ### Show VTP status ftom the server
+
 <div>
   <img width="636" height="264" alt="image" src="https://github.com/user-attachments/assets/620db32b-116e-46b9-bd0a-009b3688adde" />
 </div>
@@ -42,6 +44,7 @@ We will understand the behavior of TRANSPARENT Switches which only forward VTP i
 ### On the server, we will configure and create:
 
 - Create VLANS
+- 
 <div>
   <img width="552" height="152" alt="image" src="https://github.com/user-attachments/assets/82fa1e84-bc3a-4c2c-9115-82d2063130f1" />
 </div>
@@ -67,6 +70,7 @@ We will understand the behavior of TRANSPARENT Switches which only forward VTP i
 ### On the Client switch
 
 ### VTP status on the client
+
 <div>
   <img width="563" height="251" alt="image" src="https://github.com/user-attachments/assets/865004ba-f6e9-4a0e-9c3d-533bb59a56ec" />
 </div>
@@ -81,8 +85,14 @@ password and mode
   <img width="600" height="249" alt="image" src="https://github.com/user-attachments/assets/81865519-59f0-4a72-9358-44149d7f3e74" />
 </div>
 
-### vtp status result
+### vtp status result on the transparent switch
 
 <div>
   <img width="1016" height="720" alt="image" src="https://github.com/user-attachments/assets/61fc2730-530b-491c-b859-a981d085d311" />
+</div>
+
+## No Vlans reflected
+
+<div>
+  <img width="637" height="211" alt="image" src="https://github.com/user-attachments/assets/ff02cef2-71f6-489a-870d-38285b5da0c4" />
 </div>
