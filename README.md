@@ -92,6 +92,10 @@ Finally, we will add a new switch to the network, configure the VTP domain name 
 
 ### vtp status result on the transparent switch
 
+- Verify the VTP status on the Transparent switch.
+- Confirm that the switch operates in Transparent mode and does not synchronize VLAN information from the VTP Server.
+- Observe that VTP advertisements are forwarded to neighboring switches.
+
 <div>
   <img width="1016" height="720" alt="image" src="https://github.com/user-attachments/assets/61fc2730-530b-491c-b859-a981d085d311" />
 </div>
