@@ -4,7 +4,7 @@
 ### Lab Topology
 
 <div>
-  <img width="418" height="283" alt="image" src="https://github.com/user-attachments/assets/efb35844-992a-47b7-8cfb-8a36fed282ac" />
+  <img width="504" height="335" alt="image" src="https://github.com/user-attachments/assets/5e79122e-6654-4d69-9092-709696a5a46d" />
 </div>
 
 
