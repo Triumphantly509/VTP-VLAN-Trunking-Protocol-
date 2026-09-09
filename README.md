@@ -45,19 +45,14 @@ Finally, we will add a new switch to the network, configure the VTP domain name 
 
 
 ### Create VLANs, configure the VTP domain, password, and Server mode on the VTP Server switch.
+
 - Verify VLAN propagation to Client switches.
 - Observe VTP Transparent switch behavior.
 - Validate VTP synchronization across the network.
 
-- Create VLANS
-
 <div>
   <img width="552" height="152" alt="image" src="https://github.com/user-attachments/assets/82fa1e84-bc3a-4c2c-9115-82d2063130f1" />
 </div>
-
-- VTP domain
-- VTP password
-- Server mode
   
 <div>
   <img width="558" height="241" alt="image" src="https://github.com/user-attachments/assets/f6d6d102-66d2-42b4-9e0b-d92a12d1a1e2" />
