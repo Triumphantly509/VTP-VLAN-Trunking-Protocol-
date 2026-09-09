@@ -8,7 +8,7 @@
 </div>
 
 
-### Purpose of the lab
+### Objective
 
 In this lab, we will create VLANs on the VTP Server switch and observe how those VLANs are automatically propagated to the VTP Client switches.
 
@@ -26,7 +26,7 @@ Finally, we will add a new switch to the network, configure the VTP domain name 
   <img width="647" height="250" alt="image" src="https://github.com/user-attachments/assets/ae5e15d2-a867-4105-be26-cb48d2dd4f8e" />
 </div>
 
-### Then We do the same to all the clients and transparent switches
+### Next, configure the corresponding interfaces on all VTP Client and VTP Transparent switches as trunk ports to ensure VLAN traffic and VTP advertisements can be exchanged throughout the network.
 
 <div>
   <img width="628" height="236" alt="image" src="https://github.com/user-attachments/assets/3e1ec8cc-44fc-4990-a5ba-2f6704cecd35" />
@@ -37,24 +37,27 @@ Finally, we will add a new switch to the network, configure the VTP domain name 
   <img width="644" height="285" alt="image" src="https://github.com/user-attachments/assets/d0610ada-2f0f-4e85-87f7-3a8347c8a07d" />
 </div>
 
-### Show VTP status ftom the server
+### Show VTP status from the server
 
 <div>
   <img width="636" height="264" alt="image" src="https://github.com/user-attachments/assets/620db32b-116e-46b9-bd0a-009b3688adde" />
 </div>
 
 
-### On the server, we will configure and create:
+### Create VLANs, configure the VTP domain, password, and Server mode on the VTP Server switch.
+- Verify VLAN propagation to Client switches.
+- Observe VTP Transparent switch behavior.
+- Validate VTP synchronization across the network.
 
 - Create VLANS
-- 
+
 <div>
   <img width="552" height="152" alt="image" src="https://github.com/user-attachments/assets/82fa1e84-bc3a-4c2c-9115-82d2063130f1" />
 </div>
 
 - VTP domain
 - VTP password
-- VTP mode
+- Server mode
   
 <div>
   <img width="558" height="241" alt="image" src="https://github.com/user-attachments/assets/f6d6d102-66d2-42b4-9e0b-d92a12d1a1e2" />
