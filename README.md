@@ -109,9 +109,33 @@ Finally, we will add a new switch to the network, configure the VTP domain name 
 
 ### Demonstrating VTP Revision Number Impact on VLAN Synchronization
 
-- Add switch 6
+- Add switch 18
 - Create several VLANS
 
 <div>
   <img width="626" height="490" alt="image" src="https://github.com/user-attachments/assets/56f1c643-4a61-42c6-a38a-2a9c06fc4154" />
 </div>
+
+- Trunking its port and Displaying the VTP status
+  
+<div>
+  <img width="497" height="299" alt="image" src="https://github.com/user-attachments/assets/79952f30-b462-4417-807b-14846fa60b2e" />
+</div>
+
+- Set the password of the domain on the new Switch
+  
+<div>
+  <img width="488" height="134" alt="image" src="https://github.com/user-attachments/assets/77b6316d-8841-4d5d-a4d7-210fb891a50f" />
+</div>
+
+- New VLANS are overwritten on all the Switches
+  
+  <div>
+    <img width="491" height="218" alt="image" src="https://github.com/user-attachments/assets/471735ac-51c3-4de7-91b5-c33dd1e20a83" />
+  </div>
+
+  ### Conclusion
+
+In this scenario, a new switch (Switch 18) is introduced into the existing VTP domain. Several VLANs are created on the switch, increasing its VTP configuration revision number to 4. The switch is then connected to the network through a trunk link, and its VTP status is verified.
+
+After configuring the correct VTP domain name and password, the switch joins the VTP domain. Because its configuration revision number is higher than that of the existing VTP Server, its VLAN database is propagated throughout the network. As a result, the VLAN information on the Server and Client switches is overwritten and replaced by the VLAN database from the new switch.
