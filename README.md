@@ -52,7 +52,7 @@ Finally, we will add a new switch to the network, configure the VTP domain name 
   <img width="552" height="152" alt="image" src="https://github.com/user-attachments/assets/82fa1e84-bc3a-4c2c-9115-82d2063130f1" />
 </div>
 
-  - Configure doamin
+  - Configure domain
   - configure password
   - set the server mode
     
