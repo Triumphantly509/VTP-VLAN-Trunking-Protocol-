@@ -72,17 +72,19 @@ Finally, we will add a new switch to the network, configure the VTP domain name 
 
 ### On the Client switch
 
-### VTP status on the client
+- Verify the VTP status on the Client switch.
 
 <div>
   <img width="563" height="251" alt="image" src="https://github.com/user-attachments/assets/865004ba-f6e9-4a0e-9c3d-533bb59a56ec" />
 </div>
 
-password and mode
+- Configure the VTP password and set the VTP mode to Client.
 
 <div>
   <img width="607" height="151" alt="image" src="https://github.com/user-attachments/assets/e46a3ffb-70b3-4d21-b504-b818614aa209" />
 </div>
+
+- Confirm successful synchronization with the VTP Server.
 
 <div>
   <img width="600" height="249" alt="image" src="https://github.com/user-attachments/assets/81865519-59f0-4a72-9358-44149d7f3e74" />
