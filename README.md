@@ -109,6 +109,9 @@ Finally, we will add a new switch to the network, configure the VTP domain name 
 
 ### Demonstrating VTP Revision Number Impact on VLAN Synchronization
 
+- Add switch 6
+- Create several VLANS
+
 <div>
   <img width="626" height="490" alt="image" src="https://github.com/user-attachments/assets/56f1c643-4a61-42c6-a38a-2a9c06fc4154" />
 </div>
